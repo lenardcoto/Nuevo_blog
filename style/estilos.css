@@ -1,0 +1,388 @@
+*{
+padding: 0px;
+margin: 0 auto;
+}
+
+.nav-menu{
+	width: 100%;
+	height: 70px;
+	background-color: #F17F67;
+}
+
+.navegacion{
+	display: flex;
+
+}
+
+a{
+	text-decoration: none;
+	margin-top: 2%;
+	font-size: 1.5em;
+	font-family:Tahoma;
+	color: white;
+	font-weight: bold;
+}
+
+i{
+	padding: 5px;
+}
+
+
+.fondo{
+	width: 100%;
+	height: 850px;
+	background-color: #72EAB4;
+
+	
+}
+
+.fondo_blog{
+	width: 100%;
+	height: 850px;
+	background-color: #72EAB4;
+}
+
+.fondo_portafolio{
+	width: 100%;
+	height: 1250px;
+	background-color: #72EAB4;
+}
+
+.informacion h1{
+	color: #23832B;
+	text-align: center;
+	padding: 2%;
+	filter: drop-shadow(10px 10px 10px red);
+}
+
+
+.container-imagen{
+	width: 300px;
+	height: 200px;
+	border: solid 3px red;
+	box-shadow: 10px 10px 20px blue;
+	background-image: url(../img/le.jpeg);
+	background-size: cover;
+	transition: all 1s ease;
+}
+
+#texto{
+	width: 45%;
+	height: auto;
+	
+	padding: 5px;
+	margin-top: 40px;
+	filter: drop-shadow(5px 5px 10px blue);
+}
+
+#texto p{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#texto hr{
+	width: 100%;
+}
+
+button{
+	font-size: 1.7em;
+	margin-left: 45%;
+	margin-top: 4%;
+	background-color: #F17F67;
+	font-size: courier;
+	color: white;
+	font-weight: bold;
+	border: solid 3px black;
+ }
+
+ #redes-sociales{
+ 	width: 100%;
+ 	height: 150px;
+ 	overflow: hidden;
+ 	background-color: #5D5555;
+ 	margin-top: 3%;
+ }
+
+
+a:hover{
+	font-size: 2.0em;
+	cursor: pointer;
+	color: blue;
+}
+
+#redes-sociales i{
+	color: white;
+	font-size: 3.0em;
+	margin-left: 16%;
+	margin-top: 4%;
+}
+
+#redes-sociales i:hover{
+	cursor: pointer;
+	color: blue;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: green;
+}
+
+.container-imagen:hover{
+	scale: 1.2;
+}
+#formacion_Academica{
+	width: 90%;
+	height: 200px;
+	backdrop-filter: blur(2px);
+	background-color: rgba(7, 12, 70, 0.40);
+	box-shadow: 10px 10px 30px;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+
+#formacion_Academica h3{
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+}
+
+#formacion_Academica ul{
+	margin-left: 5%;
+}
+
+#formacion_Academica li{
+	padding: 5px;
+	font-family: tahoma;
+	color: white;
+}
+
+#redes-sociales1{
+	width: 100%;
+ 	height: 150px;
+ 
+ 	background-color: #5D5555;
+ 	margin-top: 10%;
+}
+#redes-sociales1 i{
+	color: white;
+	font-size: 3.0em;
+	margin-left: 16%;
+	margin-top: 4%;
+ }
+
+ #redes-sociales1 i:hover{
+	cursor: pointer;
+	color: blue;
+}
+
+#proyectos{
+	width: 90%;
+	height: 200px;
+	backdrop-filter: blur(2px);
+	background-color: rgba(7, 12, 70, 0.40);
+	box-shadow: 10px 10px 30px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10%;
+}
+
+#proyectos  h3{
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+}
+
+#proyectos ul{
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+#proyectos  li{
+	padding: 5px;
+	font-family: tahoma;
+	color: white;
+}
+
+#redes-sociales_portafolio{
+	width: 100%;
+ 	height: 150px;
+ 	
+ 	background-color: #5D5555;
+ 	margin-top: 25%;
+}
+
+#redes-sociales_portafolio i{
+	color: white;
+	font-size: 3.0em;
+	margin-left: 16%;
+	margin-top: 4%;
+ }
+
+ #redes-sociales_portafolio i:hover{
+	cursor: pointer;
+	color: blue;
+}
+
+#proyectos hr{
+	width: 80%;
+}
+
+#formacion_Academica hr{
+	width: 80%;
+}
+
+#redes-sociales_contacto{
+	width: 100%;
+ 	height: 150px;
+ 	
+ 	background-color: #5D5555;
+ 	margin-top: 15%;
+}
+
+#redes-sociales_contacto  i{
+	color: white;
+	font-size: 3.0em;
+	margin-left: 16%;
+	margin-top: 4%;
+ }
+
+ #redes-sociales_contacto i:hover{
+	cursor: pointer;
+	color: blue;
+}
+
+.Contacto{
+	width: 50%;
+	height: 500px;
+	background-color: rgba(7, 12, 70, 0.40);
+	box-shadow: 10px 10px 30px;
+	margin-top: 3%;
+	border-radius: 15px;
+}
+
+.texto{
+	text-align: center;
+	color: white;
+	font-family: tahoma;
+	padding: 5px;
+}
+
+.texto h2{
+	padding: 5px;
+}
+
+.formulario{
+	text-align: center;
+	margin-top: 3%;
+}
+
+.formulario input{
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+
+.formulario p{
+	padding: 10px;
+}
+
+.formulario i{
+	color: white;
+}
+
+textarea{
+	resize: none;
+}
+
+.formulario p input:hover{
+	cursor: pointer;
+	background-color: ;
+	color: red;
+}
+
+.con-img{
+	width: auto;
+	height: auto;
+	margin-top: 10%;
+	display: flex;
+}
+
+.con-img img{
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+
+
+}
+
+
+@media (max-width: 400px){
+	.navegacion{
+		flex-direction: column;
+		width: 50%;
+		height: 600px;
+	}
+
+	.nav-menu{
+		height: 300px;
+	}
+
+	a{
+		margin-top: 40px;
+	}
+
+	.informacion{
+		flex-direction: column;
+	}
+
+	#texto{
+		flex-direction: column;
+	}
+
+	#redes-sociales1{
+		flex-direction: column;
+	}
+
+	.fondo_blog{
+		height: 1200px;
+	}
+
+	.fondo_portafolio{
+		height: 1900px;
+
+	}
+
+	#redes-sociales1{
+		margin-top: 30%;
+	}
+	#redes-sociales_portafolio{
+		margin-top: 139%;
+	}
+	#redes-sociales_contacto{
+		margin-top: 50%;
+	}
+
+	textarea{
+		width: 100%;
+	}
+
+	input{
+		width: 100%;
+	}
+
+	.Contacto{
+		height: 540px;
+	}
+
+	li{
+		margin-left: 10px;
+	}
+
+	.con-img {
+		flex-direction: column;
+	}
+
+	img{
+		padding: 15px;
+	}
+}
